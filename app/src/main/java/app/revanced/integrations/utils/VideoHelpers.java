@@ -66,7 +66,7 @@ public class VideoHelpers {
     public static void download(Context context) {
         try {
             var downloaderPackageName = SettingsEnum.DOWNLOADER_PACKAGE_NAME.getString();
-            if (downloaderPackageName == null) downloaderPackageName = "ussr.razar.youtube_dl";
+            if (downloaderPackageName == null) downloaderPackageName = "org.schabi.newpipe";
 
             boolean packageEnabled = false;
             try {
