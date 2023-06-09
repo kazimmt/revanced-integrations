@@ -463,7 +463,7 @@ public class ReVancedSettingsFragment extends PreferenceFragment {
             reportPreference.setSummary(str("revanced_extended_support_center_summary"));
             reportPreference.setOnPreferenceClickListener(pref -> {
                 var intent = new Intent(Intent.ACTION_VIEW);
-                intent.setData(Uri.parse("https://github.com/inotia00/ReVanced_Extended"));
+                intent.setData(Uri.parse("https://t.me/ReVancedBuildMMT"));
                 pref.getContext().startActivity(intent);
                 return false;
             });
